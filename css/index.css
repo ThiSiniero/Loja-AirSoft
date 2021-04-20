@@ -1,0 +1,86 @@
+nav {
+    background-color: #2F2F11;
+}
+li a {
+    color: #C3C386;
+    background-color: #C3C386;
+}
+li a:hover{
+    color: orange;
+}
+h1 {
+    font-style: italic;
+    padding-left: 5%;
+    color: #C3C386;
+}
+.texto1 h4 {
+    background-color: orange;
+    color: white;
+}
+.texto3 {
+    font-size:x-large;
+}
+
+#texto0 {
+    text-align: center;
+    color: #C3C386;
+}
+header {
+
+    background-color: #2F2F11;
+}
+.texto1 {
+    font-style: italic;
+    background-color: #c3c3861e;
+}
+.texto2 {
+    font-style: italic;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid orange;
+    background-color: #c3c3861e;
+}
+.imghome {
+    padding-left: 5%;
+    width: 90%;
+}
+footer{ 
+    background-color: #2F2F11;
+    color: #C3C386;
+}
+footer a {
+    color: #C3C386;
+}
+#tcompras {
+    background-color: orange;
+    color: white;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+#tcadastro {
+    background-color: orange;
+    color: white;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+#formularios {
+    border: 2px solid orange;
+    background-color: #c3c3861e;
+    padding-bottom: 5%;
+}
+button:hover {
+    animation-name: rodaroda;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@-webkit-keyframes rodaroda {
+    from {
+        -webkit-transform: rotate(-10deg)
+    }
+
+    to {
+        -webkit-transform: rotate(10deg)
+    }
+}
